@@ -1,1 +1,1 @@
-# method or class for speech recognition
+from .whisper_large_v3_turbo import whisper_large_v3_turbo_model
