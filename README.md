@@ -24,7 +24,7 @@ Repository for computer programming(2024-2)
 
 # Schedule
 
-| Check | Data | Content | presenter |
+| Check | Data | Content | Presenter |
 |----------|----------|----------|----------|
 | - | 11월 16일 | Paper review | 미정 |
 | - | 12월 03일 | Weekly progression | 미정 |
