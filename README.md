@@ -5,11 +5,11 @@ Repository for computer programming(2024-2)
 ```
 |
 ├─ speech_recognition
-   ├─ init.py # speech_recognition api setting
-   ├─ ...
+|  ├─ init.py # speech_recognition api setting
+|  ├─ ...
 ├─ translation
-   ├─ init.py # translation api setting
-   ├─ ... 
+|  ├─ init.py # translation api setting
+|  ├─ ... 
 | main.py # to do - running speech_recognition, translation
 ```
 
