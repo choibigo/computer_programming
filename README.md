@@ -1,5 +1,4 @@
-# computer_programming
-Repository for computer programming(2024-2)
+Repository for computer programming class (2024-2)
 
 # Folder structure
 ```
