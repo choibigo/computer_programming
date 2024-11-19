@@ -10,7 +10,7 @@ Repository for computer programming(2024-2)
 ├─ translation
 |  ├─ init.py # translation api setting
 |  ├─ ... 
-| main.py # to do - running speech_recognition, translation
+| run.py # to do - running speech_recognition, translation
 ```
 
 # Role
