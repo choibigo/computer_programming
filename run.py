@@ -4,7 +4,6 @@ import utils
 import translation
 
 if __name__ == '__main__':
-    
     wav_path = os.path.join(os.getcwd(), 'sample_data', '01.원천데이터', 'truncated_audio.wav')
     
     sr_model = speech_recognition.whisper_large_v3_turbo_model(device='cuda')
