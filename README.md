@@ -14,11 +14,11 @@ Repository for computer programming(2024-2)
 ```
 
 # Role
-## Speech Recognition
+### Speech Recognition
 - 유혁준
 - 최대원
 
-## Translation
+### Translation
 - 류승완
 - 전영재
 
