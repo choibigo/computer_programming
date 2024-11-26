@@ -12,6 +12,25 @@ Repository for computer programming class (2024-2)
 | run.py # to do - running speech_recognition, translation
 ```
 
+# Setup
+```
+
+conda create -n cp_env python=3.10 -y
+conda activate cp_env
+
+pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
+# pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121 (혁준, 승완)
+# pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118 (영재)
+
+git clone https://github.com/choibigo/computer_programming.git
+cd computer_programming
+
+pip install -r requirements.txt
+# pip install accelerate>=0.26.0 
+
+python run.py
+```
+
 # Role
 ### Speech Recognition
 - 유혁준
