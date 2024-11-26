@@ -44,11 +44,11 @@ python run.py
 
 | Check | Data | Content | Presenter |
 |----------|----------|----------|----------|
-| - | 11월 16일 | Paper review | 미정 |
+| ✔ | 11월 26일 | Paper review | 혁준, 승완 |
 | - | 12월 03일 | Weekly progression | 미정 |
 | - | 12월 10일 | Weekly progression | 미정 |
-| - | 12월 17일 | Final presentation | 미정 |
-| - | 12월 24일 | Personal report | 미정 |
+| - | 12월 17일 | Final presentation | 대원, 영재 |
+| - | 12월 24일 | Personal report | X |
 
 
 ![logo](https://www.hanyang.ac.kr/documents/20182/0/initial3.png/4054db65-27de-4fff-80fb-15a05561b317?t=1472537582993)
