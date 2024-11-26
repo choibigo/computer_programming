@@ -20,10 +20,10 @@ conda activate cp_env
 
 pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu124
 
-# 혁준, 승완
+# HJ, SW
 # pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu121 
 
-# 영재
+# YJ
 # pip install torch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0 --index-url https://download.pytorch.org/whl/cu118 
 
 git clone https://github.com/choibigo/computer_programming.git
