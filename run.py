@@ -1,5 +1,6 @@
 import os
 import speech_recognition
+import translation.translate_llama3
 import utils
 import translation
 
@@ -8,8 +9,11 @@ if __name__ == '__main__':
     
     sr_model = speech_recognition.whisper_large_v3_turbo_model(device='cuda')
     sr_result = sr_model.inference(wav_path)
+    tr_model = translation.translate_llama3()
+    tr_result = tr_model.inference(sr_result)
 
     print(f'\n SR output: \n {sr_result}')
+    print(f'\n TR output: \n {tr_result}')
 
     english_gt_path = os.path.join(os.getcwd(), 'sample_data', '01.원천데이터', 'truncated_audio_gt.txt')
     with open(english_gt_path, "r", encoding="utf-8") as file:
