@@ -23,3 +23,4 @@ if __name__ == '__main__':
 
     # TO DO
     # trans_model = translation. ....
+    # tr_bleu_score
