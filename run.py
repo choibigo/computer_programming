@@ -1,6 +1,5 @@
 import os
 import speech_recognition
-import translation.translate_llama3
 import utils
 import translation
 
@@ -9,7 +8,7 @@ if __name__ == '__main__':
     
     sr_model = speech_recognition.whisper_large_v3_turbo_model(device='cuda')
     sr_result = sr_model.inference(wav_path)
-    tr_model = translation.translate_llama3()
+    tr_model = translation.llama3_8B()
     tr_result = tr_model.inference(sr_result)
 
     print(f'\n SR output: \n {sr_result}')
